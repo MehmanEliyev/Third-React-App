@@ -1,0 +1,36 @@
+.btn{
+    padding: 5px 10px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover{
+        opacity: 0.9;
+    }
+}
+
+.btn-increment{
+    background-color: cadetblue;
+}
+
+.btn-decrement{
+    background-color:firebrick;
+}
+
+.btn-register{
+    background-color: sienna;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: 500;
+    width: 100%;
+}
+
+.showPassword{
+    scale: 0.15;
+    position: absolute;
+    fill: grey !important;
+    top: 3px;
+    right: -43px;
+}
+
